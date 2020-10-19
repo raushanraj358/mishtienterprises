@@ -52,14 +52,14 @@ nav ul, footer ul {
     font-family:'Helvetica', 'Arial7', 'Sans-Serif';
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: bolder;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
 a {
-    text-decoration: blue;
+    text-decoration: black;
     color: voilet;
 }
 a:hover {
@@ -69,7 +69,11 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: black;
+}
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
