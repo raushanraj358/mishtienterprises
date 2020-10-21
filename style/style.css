@@ -87,3 +87,32 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: powderblue;
+  color: blue;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+
+
+<button onclick="myFunction()"> For dark mode click here </button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
