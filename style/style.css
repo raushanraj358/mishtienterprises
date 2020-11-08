@@ -111,16 +111,5 @@ body {
 }
 </style>
 </head>
-<body>
 
-
-
-<button onclick="myFunction()"> For dark mode click here </button>
-
-<script>
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-}
-</script>
 
