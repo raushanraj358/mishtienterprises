@@ -39,29 +39,24 @@ p    {color: black;}
                   </div>
                </div>
             </div>
-            <div class="row">
-               <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 paddimg-right">
-                  <div class="row">
-                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                        <form>
-                           <div class="row">
-                              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                 <input class="form-control" placeholder="Name" type="text" name="Name">
-                              </div>
-                              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                 <input class="form-control" placeholder="Email" type="text" name="Email">
-                              </div>
-                              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                 <input class="form-control" placeholder="Phone" type="text" name="Phone">
-                              </div>
-                              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                 <textarea class="textarea>" placeholder="Message" type="text" name="Message"></textarea>
-                              </div>
-                              
+            
+<form action="/action_page.php" method="get" id="nameform">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname">
+ <label for="email">Email:</label>
+  <input type="text" id="email" name="email"><br><br>
+	<label for="phone">Phone:</label>
+  <input type="text" id="phone" name="phone"><br><br>
+	<label for="message">Write message:</label>
+  <input type="text" id="message" name="message"><br><br>
+</form>
+
+
+
 <button type="submit" form="nameform" value="Submit">Submit</button>
-                           </div>
-                        </form>
-                     </div>
+
 
 			  
 			  
