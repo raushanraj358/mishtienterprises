@@ -4,9 +4,11 @@ body{
 }
 p{
    color: black;
+font-weight: normal;
 }
 p1{
 	color: blue;
+	font-weight: normal;
 }
 body{
 	color: blue;
@@ -16,15 +18,19 @@ li{
 }
 h1{
 	color: blue;
+	font-weight: normal;
 }
 h2{
 	color: blue;
+	font-weight: normal;
 }
 h3{
    color: blue;
+	font-weight: normal;
 }
 h4{
    color: blue;
+	font-weight: normal;
 }
 html{
 	text-align : center;
@@ -73,6 +79,7 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: black;
+	font-weight: normal;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -95,6 +102,7 @@ body {
   background-color: powderblue;
   color: blue;
   font-size: 25px;
+	font-weight: normal;
 }
 
 .dark-mode {
